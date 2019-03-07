@@ -1,0 +1,17 @@
+.he{
+    height: 350px;
+    width: 280px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 50px;
+box-shadow: 2px 4px 6px black;
+}
+@font-face {
+    font-family: 'JaguarJC BookItalic';
+    font-style: normal;
+    font-weight: bold;
+    src: local('JaguarJC BookItalic'), url('jag.woff') format('woff');
+    }
+    .f{
+        font-family: 'jag.woff';
+    }
