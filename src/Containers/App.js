@@ -41,7 +41,7 @@ this.state ={
     e.preventDefault();
  if(this.state.input)
  {
-   const resp = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${this.state.input}&APPID=70426fc95d0da1115d5339d33154a18c`);
+   const resp = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${this.state.input}&APPID=70426fc95d0da1115d5339d33154a18c`);
    const data = await resp.json();
 if(data)
    {
